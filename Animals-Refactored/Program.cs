@@ -15,7 +15,7 @@ namespace Animals_Refactored
             Console.ReadKey();
         }
 
-        public static List<Animal> GetAnimals()
+        public static List<Animal> GetAnimals() 
         {
             return new List<Animal>
             {
