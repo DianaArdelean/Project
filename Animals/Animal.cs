@@ -8,7 +8,11 @@ namespace Animals
 {
     public class Animal
     {
+        internal bool Mamifere;
+
         public string Name { get; set; }
         public string Sound { get; set; }
+
+       
     }   
 }

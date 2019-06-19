@@ -1,14 +1,8 @@
-﻿namespace Animals_Refactored
+﻿namespace Animals
 {
-    public class Animal
+   public abstract class Animal
     {
-        public string Name { get; }
-        public string Sound { get; }
-
-        public Animal(string name, string sound)
-        {
-            Name = name;
-            Sound = sound;
-        }
+        public string Name { get; set; }
+        public abstract string MakesSound();
     }
 }

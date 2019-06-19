@@ -1,29 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Animals_Refactored
+namespace Animals
 {
     class Program
     {
         static void Main(string[] args)
         {
-            foreach (var animal in GetAnimals())
+            var animals = new List<Animal>
             {
-                Console.WriteLine($"Animalul: {animal.Name}, face sunetul {animal.Sound}");
+                new Birds(BirdsType.Sirloin),
+                new Birds(BirdsType.Stork),
+                new Birds(BirdsType.Woodpecker),
+                new Mammals(MammalType.Cat),
+                new Mammals(MammalType.Dog),
+                new Mammals(MammalType.Horse)
+            };
+
+            foreach (var animal in animals)
+            {
+                Console.WriteLine($"The animal: {animal.Name} makes sound {animal.MakesSound()}");
             }
 
             Console.ReadKey();
         }
 
-        public static List<Animal> GetAnimals() 
-        {
-            return new List<Animal>
-            {
-                new Animal( "Cal","dihaha"),
-                new Animal( "Oaie","behehe"),
-                new Animal( "Porc","guitz"),
-                new Animal( "Vaca","muuu")
-            };
-        }
     }
 }

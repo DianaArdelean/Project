@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals", "Animals\Animals.csproj", "{010FC68D-13E9-4430-AA59-25CECB4973F1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals-Refactored", "Animals-Refactored\Animals-Refactored.csproj", "{18563A87-E175-49BA-A494-7EF52B1B3049}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals", "Animals-Refactored\Animals.csproj", "{18563A87-E175-49BA-A494-7EF52B1B3049}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{010FC68D-13E9-4430-AA59-25CECB4973F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{010FC68D-13E9-4430-AA59-25CECB4973F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{010FC68D-13E9-4430-AA59-25CECB4973F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{010FC68D-13E9-4430-AA59-25CECB4973F1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{18563A87-E175-49BA-A494-7EF52B1B3049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{18563A87-E175-49BA-A494-7EF52B1B3049}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18563A87-E175-49BA-A494-7EF52B1B3049}.Release|Any CPU.ActiveCfg = Release|Any CPU
